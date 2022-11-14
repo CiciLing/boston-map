@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <style>
+        h1{text-align: center;
+          font-family: serif;
+           font-size: 300%;
+           color:#A79599;}
+        h2{text-align: center;
+           font-family: serif;
+           font-size: 250%;
+           color:#4b8f8c;}
+        h3{text-align: center;
+           font-family: serif;
+           font-size: 120%;
+           color:#A79599;}
+        button_click{
+            text-align: center;
+        }
+        button{
+            position: absolute;
+            top: 50%;
+            left: 47%;
+           font-family: serif;
+           font-size: 200%;
+           color:#A79599;
+           background-color: #4A6E7D;
+        }
+        p{text-align: center;
+           font-family: serif;
+           font-size: 120%;
+           color:#A79599;}
+        body {background-color: #4A6E7D;}
+    </style>
+
+</head>
+<body>
+    <h1>Map Boston!</h1>
+    <h2>You decide where to go</h2>
+    <h3>Hey {{ username }}! Welcome to Map Boston</h3>
+    <p id="map">Click the below button to start our journey</p>
+    <div class="button_click">
+        <a href="http://localhost:8000/map"><button type="button">Start</button></a>
+    </div>
+</body>
+</html>
